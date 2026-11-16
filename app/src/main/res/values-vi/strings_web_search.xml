@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="web_search_title">Web search</string>
-    <string name="web_search_provider">Search service</string>
-    <string name="web_search_note_you">Works without a key (free, 100 searches a day); with a key it uses the paid API.</string>
-    <string name="web_search_searxng_url">Instance URL</string>
-    <string name="web_search_note_jina">Needs an API key. Results come from Jina search (s.jina.ai).</string>
-    <string name="web_search_note_exa">Needs an API key. Results come from Exa search (api.exa.ai).</string>
-    <string name="web_search_note_keirolabs">Needs an API key. Results come from Keirolabs search (api.keirolabs.cloud).</string>
-    <string name="web_search_note_searxng">Your own SearXNG instance; no key. The instance must allow JSON output (add json to search.formats in settings.yml).</string>
-    <string name="web_search_api_key_required">API key (required)</string>
-    <string name="web_search_missing_key">%1$s needs an API key to work.</string>
-    <string name="web_search_get_key">Get an API key</string>
-    <string name="web_search_privacy">The key is stored encrypted on this phone. Search results are treated as untrusted.</string>
-    <string name="web_search_row_sub">Optional search service; browser search is always available</string>
-    <string name="web_search_enabled">Enable web search</string>
-    <string name="web_search_api_key">API key (optional)</string>
-    <string name="web_search_invalid_endpoint">Enter an HTTP or HTTPS URL without query parameters.</string>
-    <string name="web_search_action">Search the web</string>
+    <string name="web_search_title">Tìm kiếm web</string>
+    <string name="web_search_provider">Dịch vụ tìm kiếm</string>
+    <string name="web_search_note_you">Hoạt động không cần key (miễn phí, 100 lượt tìm mỗi ngày); có key thì dùng API trả phí.</string>
+    <string name="web_search_searxng_url">URL máy chủ</string>
+    <string name="web_search_note_jina">Cần API key. Kết quả từ tìm kiếm Jina (s.jina.ai).</string>
+    <string name="web_search_note_exa">Cần API key. Kết quả từ tìm kiếm Exa (api.exa.ai).</string>
+    <string name="web_search_note_keirolabs">Cần API key. Kết quả từ tìm kiếm Keirolabs (api.keirolabs.cloud).</string>
+    <string name="web_search_note_searxng">Máy chủ SearXNG của bạn; không cần key. Máy chủ phải cho phép JSON (thêm json vào search.formats trong settings.yml).</string>
+    <string name="web_search_api_key_required">API key (bắt buộc)</string>
+    <string name="web_search_missing_key">%1$s cần API key để hoạt động.</string>
+    <string name="web_search_get_key">Lấy API key</string>
+    <string name="web_search_privacy">Key được lưu mã hóa trên điện thoại này. Kết quả tìm kiếm được xem là không đáng tin cậy.</string>
+    <string name="web_search_row_sub">Dịch vụ tìm kiếm tùy chọn; tìm kiếm trong trình duyệt luôn khả dụng</string>
+    <string name="web_search_enabled">Bật tìm kiếm web</string>
+    <string name="web_search_api_key">API key (tùy chọn)</string>
+    <string name="web_search_invalid_endpoint">Nhập URL HTTP hoặc HTTPS không có tham số truy vấn.</string>
+    <string name="web_search_action">Tìm kiếm web</string>
 </resources>
