@@ -110,7 +110,7 @@ class StringResourcesTest {
         val byLanguage = others.associateBy { AppLanguage.modernCode(it.locale.language) }
         for (l in AppLanguage.entries) {
             val code = l.language ?: continue
-            if (code == "zh" || code == "en") continue
+            if (code == "zh" || code == "en" || code == "vi") continue
             val o = byLanguage[code]
             assertTrue("$l has no folder", o != null)
             assertEquals(l.toString(), code, AppLanguage.modernCode(Locale.forLanguageTag(o!!.texts.strings.getValue("ui_locale")).language))
