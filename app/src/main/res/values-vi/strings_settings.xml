@@ -5,13 +5,13 @@
     <string name="language_system_detail">Dùng ngôn ngữ hệ thống nếu Mika hỗ trợ, nếu không dùng tiếng Anh</string>
     <string name="language_simplified_chinese" translatable="false">简体中文</string>
     <string name="language_traditional_chinese" translatable="false">繁體中文</string>
-    <string name="language_english" translatable="false">English</string>
+    <string name="language_english" translatable="false">Tiếng Anh</string>
     <string name="language_japanese" translatable="false">日本語</string>
     <string name="language_korean" translatable="false">한국어</string>
-    <string name="language_spanish" translatable="false">Español</string>
-    <string name="language_portuguese" translatable="false">Português</string>
+    <string name="language_spanish" translatable="false">Tiếng Tây Ban Nha</string>
+    <string name="language_portuguese" translatable="false">Tiếng Bồ Đào Nha</string>
     <string name="language_russian" translatable="false">Русский</string>
-    <string name="language_indonesian" translatable="false">Bahasa Indonesia</string>
+    <string name="language_indonesian" translatable="false">Tiếng Indonesia</string>
     <string name="language_arabic" translatable="false">العربية</string>
     <string name="language_persian" translatable="false">فارسی</string>
     <string name="settings_language_appearance">Ngôn ngữ và giao diện</string>
@@ -29,8 +29,8 @@
     <string name="settings_saved_data">Dữ liệu đã lưu</string>
     <string name="settings_web_logins">Đăng nhập trang web</string>
     <plurals name="settings_count_sites">
-        <item quantity="one">%1$d site</item>
-        <item quantity="other">%1$d sites</item>
+        <item quantity="one">%1$d trang</item>
+        <item quantity="other">%1$d trangs</item>
     </plurals>
     <string name="settings_advanced">Nâng cao</string>
     <string name="settings_advanced_sub">Tiện ích, mạng, môi trường chạy và bảo trì</string>
@@ -38,8 +38,8 @@
     <string name="settings_sandbox">Môi trường tệp và tính toán</string>
     <string name="settings_routes">Tuyến đã lưu</string>
     <plurals name="settings_count_routes">
-        <item quantity="one">%1$d route</item>
-        <item quantity="other">%1$d routes</item>
+        <item quantity="one">%1$d tuyến</item>
+        <item quantity="other">%1$d tuyếns</item>
     </plurals>
     <string name="settings_recovery">Khôi phục và sửa chữa</string>
     <string name="settings_developer_group">Nhà phát triển</string>
@@ -57,94 +57,94 @@
     <string name="settings_a11y_sub">Đọc và điều khiển màn hình ảo Mika</string>
     <string name="settings_notif_progress_sub">Tiến độ và cảnh báo “Cần bạn”</string>
     <string name="settings_system_version">Phiên bản hệ thống</string>
-    <string name="settings_android_focus">Android %1$s · On Android 12–13 background work may steal focus from your screen; Android 14+ recommended</string>
+    <string name="settings_android_focus">Android %1$s · Android 12–13 có thể khiến tác vụ nền chiếm màn hình; khuyên dùng Android 14+</string>
     <string name="settings_android">Android %1$s</string>
     <string name="settings_meets">Được hỗ trợ</string>
     <string name="settings_notif_master">Tất cả thông báo</string>
     <string name="settings_allowed">Được phép</string>
     <string name="settings_task_notifs">Thông báo tác vụ</string>
     <string name="settings_keep_on">Giữ màn hình sáng</string>
-    <string name="settings_keep_on_sub">The screen stays on while a task runs (it can still dim when you’re not using it), then goes back to normal</string>
+    <string name="settings_keep_on_sub">Màn hình luôn sáng khi tác vụ chạy (vẫn có thể giảm sáng khi bạn không dùng), sau đó trở lại bình thường</string>
     <string name="settings_mute">Tắt tiếng ứng dụng đang dùng</string>
-    <string name="settings_mute_sub">Apps Mika is using stay silent; sound returns when you take over</string>
+    <string name="settings_mute_sub">Ứng dụng Mika đang dùng sẽ im lặng; âm thanh trở lại khi bạn tiếp quản</string>
     <string name="settings_pace">Tốc độ thao tác</string>
     <string name="settings_pace_fast">Nhanh</string>
-    <string name="settings_pace_fast_detail">No pauses between steps; text is filled in at once</string>
+    <string name="settings_pace_fast_detail">Không nghỉ giữa các bước; văn bản được nhập cùng lúc</string>
     <string name="settings_pace_standard">Tiêu chuẩn (mặc định)</string>
-    <string name="settings_pace_standard_detail">Types like a person and pauses briefly between steps; slower in apps that block fast use</string>
+    <string name="settings_pace_standard_detail">Nhập như người thật và nghỉ ngắn giữa các bước; chậm hơn ở ứng dụng chặn thao tác nhanh</string>
     <string name="settings_pace_human">Giống con người</string>
-    <string name="settings_pace_human_detail">Slow in every app, reading each screen before going on</string>
-    <string name="settings_pace_foot">Some apps log you out or ask for verification when they are used too fast. The slower the pace, the longer a task takes.</string>
+    <string name="settings_pace_human_detail">Chậm trong mọi ứng dụng, đọc từng màn hình trước khi tiếp tục</string>
+    <string name="settings_pace_foot">Một số ứng dụng đăng xuất hoặc yêu cầu xác minh khi thao tác quá nhanh. Tốc độ càng chậm, tác vụ càng lâu.</string>
     <string name="settings_parallel">Tác vụ đồng thời</string>
-    <string name="settings_parallel_sub">Tasks from different chats each get their own virtual screen</string>
+    <string name="settings_parallel_sub">Tác vụ từ các cuộc trò chuyện khác nhau có màn hình ảo riêng</string>
     <plurals name="settings_count_tasks">
         <item quantity="one">%1$d</item>
         <item quantity="other">%1$d</item>
     </plurals>
     <string name="capsule_settings_title">Viên nang nổi</string>
-    <string name="capsule_settings_sub">See task progress on screen while using other apps</string>
-    <string name="capsule_settings_foot">The capsule is drawn using Mika’s accessibility service that’s already on, so no extra permission is needed. If that service is off or can’t draw, you’ll still get notifications.</string>
-    <string name="capsule_settings_background">Some phones close apps in the background. If the capsule disappears, allow Mika to run in the background and to start automatically in your phone’s system settings.</string>
-    <string name="capsule_mode_off">Off</string>
-    <string name="capsule_mode_tasks">During tasks</string>
-    <string name="capsule_mode_always">Always</string>
-    <string name="capsule_mode_off_detail">Notifications only</string>
-    <string name="capsule_mode_tasks_detail">Appears while a task runs or waits for you, and goes away a few seconds after</string>
-    <string name="capsule_mode_always_detail">Keeps a Mika icon on screen even with no tasks</string>
-    <string name="capsule_idle_opacity">Idle opacity</string>
-    <string name="capsule_idle_opacity_detail">After a few seconds untouched; anything needing your attention stays fully visible</string>
-    <string name="capsule_card_size">Card size</string>
-    <string name="capsule_card_size_detail">The expanded capsule card and its text scale together; the collapsed capsule keeps its size</string>
+    <string name="capsule_settings_sub">Xem tiến độ tác vụ trên màn hình khi dùng ứng dụng khác</string>
+    <string name="capsule_settings_foot">Viên nang được vẽ bằng dịch vụ Trợ năng Mika đang bật nên không cần quyền bổ sung. Nếu dịch vụ tắt hoặc không thể vẽ, bạn vẫn nhận thông báo.</string>
+    <string name="capsule_settings_background">Một số điện thoại đóng ứng dụng nền. Nếu viên nang biến mất, hãy cho phép Mika chạy nền và tự khởi động trong cài đặt hệ thống.</string>
+    <string name="capsule_mode_off">Tắt</string>
+    <string name="capsule_mode_tasks">Trong khi tác vụ</string>
+    <string name="capsule_mode_always">Luôn luôn</string>
+    <string name="capsule_mode_off_detail">Chỉ thông báo</string>
+    <string name="capsule_mode_tasks_detail">Hiện khi tác vụ chạy hoặc chờ bạn, rồi biến mất sau vài giây</string>
+    <string name="capsule_mode_always_detail">Giữ biểu tượng Mika trên màn hình ngay cả khi không có tác vụ</string>
+    <string name="capsule_idle_opacity">Độ mờ khi rảnh</string>
+    <string name="capsule_idle_opacity_detail">Sau vài giây không chạm; nội dung cần chú ý vẫn hiển thị đầy đủ</string>
+    <string name="capsule_card_size">Kích thước thẻ</string>
+    <string name="capsule_card_size_detail">Thẻ viên nang mở rộng và chữ thay đổi kích thước cùng nhau; viên nang thu gọn giữ nguyên kích thước</string>
     <string name="capsule_card_size_small">Nhỏ</string>
-    <string name="capsule_card_size_normal">Standard</string>
+    <string name="capsule_card_size_normal">Tiêu chuẩn</string>
     <string name="capsule_card_size_large">Lớn</string>
     <string name="capsule_card_size_xlarge">Rất lớn</string>
     <string name="routes_saved">Tuyến đã lưu</string>
     <string name="loading">Đang tải</string>
     <plurals name="routes_count">
-        <item quantity="one">%1$d route · repeats what worked before, faster</item>
-        <item quantity="other">%1$d routes · repeats what worked before, faster</item>
+        <item quantity="one">%1$d tuyến · repeats what worked before, faster</item>
+        <item quantity="other">%1$d tuyếns · repeats what worked before, faster</item>
     </plurals>
     <string name="routes_clear_all">Xóa tất cả</string>
     <string name="routes_clear_title">Xóa tất cả tuyến đã lưu?</string>
-    <string name="routes_clear_body">After clearing, Mika works things out step by step again next time. Other settings aren’t affected.</string>
+    <string name="routes_clear_body">Sau khi xóa, lần sau Mika sẽ xử lý từng bước lại. Các cài đặt khác không bị ảnh hưởng.</string>
     <string name="clear">Xóa</string>
-    <string name="sandbox_proxy_off">%1$s · used once network access is on</string>
+    <string name="sandbox_proxy_off">%1$s · dùng khi bật truy cập mạng</string>
     <string name="net_proxy">Proxy mạng</string>
-    <string name="net_proxy_row_sub">For model requests, updates, the in-app browser and commands</string>
-    <string name="net_proxy_hint">Used for Mika’s model requests (chat, model lists, account sign-in), in-app update downloads, the in-app browser, and commands in Files &amp; computing environment while network access is on there. Addresses on this phone or your local network (localhost, 192.168.x.x, 10.x.x.x, names ending in .local) always connect directly, so local models keep working. It may include user:password@, stored encrypted on this phone. Leave empty for a direct connection.</string>
-    <string name="net_proxy_invalid">Write it as http://host:port (socks5, socks5h and https work too), optionally with user:password@ before the host.</string>
-    <string name="net_proxy_container_only">https:// proxies are only used by commands in Files &amp; computing environment; Mika’s own connections stay direct. Use http:// or socks5:// to cover everything.</string>
-    <string name="net_proxy_browser_unsupported">This phone’s WebView can’t use a separate proxy, so the in-app browser connects directly.</string>
-    <string name="net_proxy_browser_socks_auth">The in-app browser can’t use a SOCKS proxy that needs a user name and password, so it connects directly.</string>
-    <string name="net_proxy_unreachable">Couldn’t reach the network proxy, or it didn’t pass the request on. Check that the proxy is running and that the address in Settings › Network proxy is right.</string>
-    <string name="net_proxy_auth_failed">The network proxy rejected the user name or password. Check them in Settings › Network proxy.</string>
-    <string name="sandbox_proxy_sub">Not set: commands connect directly. Change it in Settings › Network proxy</string>
-    <string name="sandbox_proxy_on">%1$s · change it in Settings › Network proxy</string>
+    <string name="net_proxy_row_sub">Dành cho yêu cầu mô hình, cập nhật, trình duyệt trong ứng dụng và lệnh</string>
+    <string name="net_proxy_hint">Dùng cho yêu cầu mô hình Mika (trò chuyện, danh sách mô hình, đăng nhập tài khoản), tải cập nhật trong ứng dụng, trình duyệt tích hợp và lệnh trong môi trường Tệp &amp; tính toán khi bật mạng. Địa chỉ trên điện thoại hoặc mạng nội bộ (localhost, 192.168.x.x, 10.x.x.x, tên kết thúc bằng .local) luôn kết nối trực tiếp để mô hình cục bộ vẫn hoạt động. Có thể gồm user:password@, được lưu mã hóa trên điện thoại. Để trống nếu muốn kết nối trực tiếp.</string>
+    <string name="net_proxy_invalid">Nhập dạng http://host:port (socks5, socks5h và https cũng hoạt động), có thể thêm user:password@ trước host.</string>
+    <string name="net_proxy_container_only">Proxy https:// chỉ dùng cho lệnh trong môi trường Tệp &amp; tính toán; kết nối riêng của Mika vẫn trực tiếp. Dùng http:// hoặc socks5:// để áp dụng cho tất cả.</string>
+    <string name="net_proxy_browser_unsupported">WebView trên điện thoại này không thể dùng proxy riêng nên trình duyệt trong ứng dụng kết nối trực tiếp.</string>
+    <string name="net_proxy_browser_socks_auth">Trình duyệt trong ứng dụng không thể dùng proxy SOCKS yêu cầu tên người dùng và mật khẩu nên kết nối trực tiếp.</string>
+    <string name="net_proxy_unreachable">Không thể kết nối proxy mạng hoặc proxy không chuyển tiếp yêu cầu. Kiểm tra proxy đang chạy và địa chỉ trong Cài đặt › Proxy mạng.</string>
+    <string name="net_proxy_auth_failed">Proxy mạng từ chối tên người dùng hoặc mật khẩu. Kiểm tra trong Cài đặt › Proxy mạng.</string>
+    <string name="sandbox_proxy_sub">Chưa đặt: lệnh kết nối trực tiếp. Thay đổi trong Cài đặt › Proxy mạng</string>
+    <string name="sandbox_proxy_on">%1$s · thay đổi trong Cài đặt › Proxy mạng</string>
     <string name="sandbox_usage">Dung lượng đã dùng</string>
     <string name="sandbox_usage_total">Tổng</string>
     <string name="sandbox_usage_runtime">Môi trường chạy</string>
     <string name="sandbox_usage_skills">Kỹ năng</string>
     <string name="sandbox_usage_workspaces">Không gian làm việc trò chuyện</string>
     <string name="sandbox_usage_deleted_chat">Trò chuyện đã xóa</string>
-    <string name="sandbox_usage_busy">A task is running in this chat; it can’t be cleared now</string>
+    <string name="sandbox_usage_busy">Đang có tác vụ chạy trong cuộc trò chuyện này; hiện không thể xóa</string>
     <string name="sandbox_usage_clear">Xóa</string>
-    <string name="sandbox_usage_clear_title">Clear this chat’s workspace?</string>
-    <string name="sandbox_usage_clear_body">Files in the workspace of “%1$s” will be deleted: attachments you sent, screens you shared and files tasks wrote. The chat itself stays, but those files in it won’t open any more.</string>
-    <string name="sandbox_usage_clear_all">Clear all workspaces</string>
-    <string name="sandbox_usage_clear_all_title">Clear every chat’s workspace?</string>
-    <string name="sandbox_usage_clear_all_body">Files in every chat’s workspace will be deleted: attachments, shared screens and files tasks wrote. Chats stay. Chats with a running task are skipped.</string>
-    <string name="sandbox_usage_note">The runtime and skills come with the app and aren’t cleared here; to start over, use “Reset environment” above.</string>
+    <string name="sandbox_usage_clear_title">Xóa không gian làm việc của cuộc trò chuyện này?</string>
+    <string name="sandbox_usage_clear_body">Tệp trong không gian làm việc của “%1$s” sẽ bị xóa: tệp đính kèm bạn gửi, màn hình chia sẻ và tệp do tác vụ ghi. Cuộc trò chuyện vẫn còn nhưng các tệp đó không mở được nữa.</string>
+    <string name="sandbox_usage_clear_all">Xóa mọi không gian làm việc</string>
+    <string name="sandbox_usage_clear_all_title">Xóa không gian làm việc của mọi cuộc trò chuyện?</string>
+    <string name="sandbox_usage_clear_all_body">Tệp trong không gian làm việc của mọi cuộc trò chuyện sẽ bị xóa: tệp đính kèm, màn hình chia sẻ và tệp do tác vụ ghi. Cuộc trò chuyện vẫn còn. Bỏ qua cuộc trò chuyện có tác vụ đang chạy.</string>
+    <string name="sandbox_usage_note">Môi trường chạy và kỹ năng đi kèm ứng dụng, không bị xóa tại đây; để bắt đầu lại, dùng “Đặt lại môi trường” phía trên.</string>
     <string name="appearance_title">Ngôn ngữ và giao diện</string>
     <string name="appearance_group">Giao diện</string>
     <string name="appearance_system">Theo hệ thống</string>
-    <string name="appearance_system_detail">Light or dark, whichever the phone is in</string>
+    <string name="appearance_system_detail">Sáng hoặc tối theo điện thoại</string>
     <string name="appearance_light">Luôn sáng</string>
     <string name="appearance_dark">Luôn tối</string>
     <string name="accent_group">Màu nhấn</string>
     <string name="accent_default">Mặc định</string>
     <string name="accent_blue">Xanh dương</string>
-    <string name="accent_indigo">Indigo</string>
+    <string name="accent_indigo">Chàm</string>
     <string name="accent_purple">Tím</string>
     <string name="accent_pink">Hồng</string>
     <string name="accent_teal">Xanh ngọc</string>
@@ -160,73 +160,73 @@
     <string name="skin_blur_off">Không</string>
     <string name="skin_blur_light">Nhẹ</string>
     <string name="skin_blur_strong">Mạnh</string>
-    <string name="skin_accent_follow">Accent color from the image</string>
-    <string name="skin_accent_follow_sub">Uses the main color in the image instead of the accent color above, when it has one</string>
-    <string name="settings_self_config">Let Mika change its own settings</string>
-    <string name="settings_self_config_sub">When on, tasks get one tool to read and change these preferences (pace, mute, capsule, appearance, accent color, screen-on). Models, API keys, container network and anything that deletes data are never included</string>
+    <string name="skin_accent_follow">Màu nhấn từ ảnh</string>
+    <string name="skin_accent_follow_sub">Dùng màu chính của ảnh thay cho màu nhấn phía trên nếu ảnh có</string>
+    <string name="settings_self_config">Cho phép Mika tự thay đổi cài đặt</string>
+    <string name="settings_self_config_sub">Khi bật, tác vụ có một công cụ để đọc và thay đổi tùy chọn này (tốc độ, tắt tiếng, viên nang, giao diện, màu nhấn, giữ màn hình sáng). Mô hình, API key, mạng container và thao tác xóa dữ liệu không bao giờ được bao gồm</string>
     <string name="settings_step_limit">Giới hạn bước mỗi tác vụ</string>
-    <string name="settings_step_limit_sub">Off means no limit. When the limit is reached, the task stops and says where it stopped.</string>
+    <string name="settings_step_limit_sub">Tắt means no limit. When the limit is reached, the task stops and says where it stopped.</string>
     <string name="settings_step_limit_off">Không giới hạn</string>
     <string name="settings_step_limit_custom">Tùy chỉnh (1–500)</string>
     <string name="settings_step_limit_custom_apply">Dùng</string>
     <string name="settings_step_limit_invalid">Nhập số nguyên từ 1 đến 500.</string>
     <string name="mcp_servers_title">Máy chủ MCP</string>
     <string name="mcp_servers_empty">Chưa thêm máy chủ MCP</string>
-    <string name="mcp_servers_empty_sub">Add an external MCP server to expose its tools to Mika.</string>
+    <string name="mcp_servers_empty_sub">Thêm máy chủ MCP bên ngoài để cung cấp công cụ cho Mika.</string>
     <string name="mcp_servers_add">Thêm máy chủ</string>
     <string name="mcp_servers_edit">Sửa máy chủ</string>
     <string name="mcp_servers_name">Tên</string>
     <string name="mcp_servers_url">URL máy chủ</string>
     <string name="mcp_servers_token">Token truy cập (tùy chọn)</string>
     <string name="mcp_servers_allow_local_http">Cho phép HTTP với máy chủ cục bộ/riêng tư</string>
-    <string name="mcp_servers_trust_annotations">Trust the server’s read-only annotations</string>
+    <string name="mcp_servers_trust_annotations">Tin cậy chú thích chỉ đọc của máy chủ</string>
     <string name="mcp_servers_save">Lưu</string>
     <string name="mcp_servers_save_test">Lưu và kiểm tra</string>
     <string name="mcp_servers_testing">Đang kiểm tra…</string>
-    <string name="mcp_servers_count">%1$d servers</string>
+    <string name="mcp_servers_count">%1$d máy chủ</string>
     <string name="mcp_servers_help">Giới thiệu</string>
-    <string name="mcp_servers_help_text">External MCP servers are separate from Connect a computer. Their tools appear with an MCP source in tasks. HTTPS only by default; local HTTP needs the checkbox. Tokens stay on this phone.</string>
+    <string name="mcp_servers_help_text">Máy chủ MCP bên ngoài khác với Kết nối máy tính. Công cụ của chúng xuất hiện với nguồn MCP trong tác vụ. Mặc định chỉ HTTPS; HTTP cục bộ cần đánh dấu ô. Token chỉ lưu trên điện thoại.</string>
     <string name="mcp_servers_delete">Xóa</string>
     <string name="mcp_servers_transport_http">HTTP</string>
     <string name="mcp_servers_transport_sse">SSE</string>
     <string name="mcp_servers_transport_stdio">Tiến trình cục bộ</string>
-    <string name="mcp_servers_command">Command (executable and arguments)</string>
-    <string name="mcp_servers_stdio_help">Runs inside the Linux sandbox. Install the server there first.</string>
-    <string name="mcp_servers_legacy_sse">Use legacy HTTP+SSE transport (2024-11-05)</string>
-    <string name="mcp_servers_use_oauth">Use OAuth 2.1 sign-in</string>
+    <string name="mcp_servers_command">Lệnh (tệp thực thi và đối số)</string>
+    <string name="mcp_servers_stdio_help">Chạy bên trong sandbox Linux. Trước tiên hãy cài máy chủ ở đó.</string>
+    <string name="mcp_servers_legacy_sse">Dùng giao thức HTTP+SSE cũ (2024-11-05)</string>
+    <string name="mcp_servers_use_oauth">Dùng đăng nhập OAuth 2.1</string>
     <string name="mcp_servers_sign_in">Đăng nhập</string>
     <string name="mcp_servers_signing_in">Đang chờ đăng nhập trình duyệt…</string>
     <string name="mcp_servers_sign_in_ok">Đã đăng nhập. Dùng Lưu và kiểm tra để kiểm tra công cụ.</string>
-    <string name="mcp_servers_sign_in_failed">Sign-in failed: %1$s</string>
-    <string name="mcp_servers_run_failed">MCP servers unavailable: %1$s</string>
-    <string name="mcp_servers_status_ok">Available · %1$d tools</string>
-    <string name="mcp_servers_status_fail">Connection failed: %1$s</string>
+    <string name="mcp_servers_sign_in_failed">Đăng nhập thất bại: %1$s</string>
+    <string name="mcp_servers_run_failed">Máy chủ MCP không khả dụng: %1$s</string>
+    <string name="mcp_servers_status_ok">Khả dụng · %1$d công cụ</string>
+    <string name="mcp_servers_status_fail">Kết nối thất bại: %1$s</string>
     <string name="mcp_servers_refresh_all">Kiểm tra tất cả</string>
-    <string name="mcp_servers_allowlist">Allowed tools (comma separated, empty = all)</string>
+    <string name="mcp_servers_allowlist">Công cụ được phép (phân cách bằng dấu phẩy, để trống = tất cả)</string>
     <string name="settings_show_task_cost">Hiện chi phí tác vụ</string>
-    <string name="settings_show_task_cost_sub">Estimate DeepSeek API charges in Chinese yuan for new tasks.</string>
+    <string name="settings_show_task_cost_sub">Ước tính phí API DeepSeek bằng nhân dân tệ cho tác vụ mới.</string>
     <string name="quit_title">Thoát hoàn toàn Mika</string>
-    <string name="quit_row_sub">Stops background tasks and hides the floating capsule</string>
-    <string name="quit_confirm_body">Tasks that are running will stop, and the floating capsule and notifications will go away. Open Mika again and everything comes back.</string>
+    <string name="quit_row_sub">Dừng tác vụ nền và ẩn viên nang nổi</string>
+    <string name="quit_confirm_body">Tác vụ đang chạy sẽ dừng, viên nang nổi và thông báo biến mất. Mở lại Mika để mọi thứ trở lại.</string>
     <string name="quit_confirm_action">Thoát</string>
     <string name="settings_task_token_budget">Ngân sách token mỗi tác vụ</string>
-    <string name="settings_task_token_budget_sub">Only provider-reported input and output tokens count. Once the budget is reached, no further requests are made. An in-flight request may take usage past the budget; calls without reported usage count as 0.</string>
+    <string name="settings_task_token_budget_sub">Chỉ tính token đầu vào và đầu ra do nhà cung cấp báo cáo. Khi đạt ngân sách, không gửi yêu cầu mới. Yêu cầu đang chạy có thể khiến mức dùng vượt ngân sách; lời gọi không có báo cáo được tính 0.</string>
     <string name="settings_token_budget_unlimited">Không giới hạn</string>
     <string name="settings_token_budget_custom">Ngân sách token tùy chỉnh</string>
     <string name="settings_token_budget_apply">Dùng</string>
-    <string name="settings_token_budget_invalid">Enter a whole number from %1$s to %2$s.</string>
+    <string name="settings_token_budget_invalid">Nhập số nguyên từ %1$s đến %2$s.</string>
     <string name="settings_auto_archive">Tự động lưu trữ trò chuyện</string>
-    <string name="settings_auto_archive_sub">Chats without new messages for a while move to the archive</string>
-    <string name="settings_auto_archive_hint">Chats without new messages for the chosen time are moved to the archive. Pinned chats and chats with a task running stay put. You can restore them from the archive in the chat list at any time.</string>
+    <string name="settings_auto_archive_sub">Cuộc trò chuyện không có tin nhắn mới trong một thời gian sẽ chuyển vào lưu trữ</string>
+    <string name="settings_auto_archive_hint">Cuộc trò chuyện không có tin nhắn mới trong khoảng thời gian đã chọn sẽ được lưu trữ. Cuộc trò chuyện đã ghim hoặc có tác vụ đang chạy được giữ lại. Bạn có thể khôi phục từ mục lưu trữ trong danh sách trò chuyện bất cứ lúc nào.</string>
     <plurals name="settings_auto_archive_days">
-        <item quantity="one">%1$d day</item>
-        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d ngày</item>
+        <item quantity="other">%1$d ngàys</item>
     </plurals>
-    <string name="settings_scheduled_quiet">Scheduled task quiet hours</string>
-    <string name="settings_scheduled_quiet_detail">Scheduled results and reminders appear silently in the notification shade.</string>
-    <string name="settings_scheduled_quiet_start">Start time</string>
-    <string name="settings_scheduled_quiet_end">End time</string>
-    <string name="settings_scheduled_quiet_equal">Choose different start and end times to silence notifications.</string>
+    <string name="settings_scheduled_quiet">Giờ yên lặng của tác vụ đã lên lịch</string>
+    <string name="settings_scheduled_quiet_detail">Kết quả và nhắc nhở đã lên lịch hiển thị im lặng trong thanh thông báo.</string>
+    <string name="settings_scheduled_quiet_start">Thời gian bắt đầu</string>
+    <string name="settings_scheduled_quiet_end">Thời gian kết thúc</string>
+    <string name="settings_scheduled_quiet_equal">Chọn thời gian bắt đầu và kết thúc khác nhau để tắt âm thông báo.</string>
     <string name="settings_capabilities">Khả năng</string>
     <string name="settings_preferences">Tùy chọn</string>
     <string name="settings_data">Dữ liệu</string>
@@ -234,9 +234,9 @@
     <string name="settings_network">Mạng</string>
     <string name="settings_runtime">Môi trường chạy</string>
     <string name="settings_trigger_run_limit">Giới hạn thời gian tác vụ đã lên lịch</string>
-    <string name="settings_trigger_run_limit_sub">Scheduled tasks run while you’re away. Off means no limit; when time is up, the task stops and says it ran out of time.</string>
+    <string name="settings_trigger_run_limit_sub">Tác vụ đã lên lịch chạy khi bạn vắng mặt. Tắt nghĩa là không giới hạn; hết thời gian thì tác vụ dừng và thông báo đã hết giờ.</string>
     <plurals name="settings_trigger_run_minutes_n">
-        <item quantity="one">%1$d minute</item>
-        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d phút</item>
+        <item quantity="other">%1$d phúts</item>
     </plurals>
 </resources>
