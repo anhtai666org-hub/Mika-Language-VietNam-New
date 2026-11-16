@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="metrics_model">Model thinking</string>
-    <string name="metrics_observe">Reading the screen</string>
-    <string name="metrics_act">Actions</string>
-    <string name="metrics_other">Other (waits, retries)</string>
-    <string name="metrics_title">Run stats</string>
-    <string name="metrics_sub">Time, model round trips and tokens of recent runs</string>
-    <string name="metrics_empty">No run stats yet. Ask Mika to do something and it’ll be recorded here.</string>
-    <string name="metrics_note">Only the last %1$d runs on this phone are counted. Time starts when Mika begins working; first feedback is when you first see what it’s doing.</string>
-    <string name="metrics_copy">Copy JSON</string>
-    <string name="metrics_share">Share JSON</string>
-    <string name="metrics_last_10">Last 10</string>
+    <string name="metrics_model">Mô hình suy nghĩ</string>
+    <string name="metrics_observe">Đọc màn hình</string>
+    <string name="metrics_act">Thao tác</string>
+    <string name="metrics_other">Khác (chờ, thử lại)</string>
+    <string name="metrics_title">Thống kê lượt chạy</string>
+    <string name="metrics_sub">Thời gian, lượt trao đổi mô hình và token của các lần chạy gần đây</string>
+    <string name="metrics_empty">Chưa có thống kê. Hãy yêu cầu Mika làm việc gì đó, dữ liệu sẽ được ghi tại đây.</string>
+    <string name="metrics_note">Chỉ tính %1$d lượt chạy gần nhất trên điện thoại. Thời gian bắt đầu khi Mika làm việc; phản hồi đầu tiên là lúc bạn thấy Mika đang làm gì.</string>
+    <string name="metrics_copy">Sao chép JSON</string>
+    <string name="metrics_share">Chia sẻ JSON</string>
+    <string name="metrics_last_10">10 lượt gần nhất</string>
     <plurals name="metrics_runs">
         <item quantity="one">%1$d</item>
         <item quantity="other">%1$d</item>
     </plurals>
-    <string name="duration_h_m">%1$d h %2$d min</string>
-    <string name="metrics_total">%1$s total</string>
+    <string name="duration_h_m">%1$d giờ %2$d phút</string>
+    <string name="metrics_total">Tổng %1$s</string>
     <plurals name="metrics_round_trips">
-        <item quantity="one">%1$d model round trip</item>
-        <item quantity="other">%1$d model round trips</item>
+        <item quantity="one">%1$d lượt trao đổi mô hình</item>
+        <item quantity="other">%1$d lượt trao đổi mô hình</item>
     </plurals>
-    <string name="metrics_first_feedback_at">first feedback %1$s</string>
-    <string name="metrics_retry_wait">Of which retry waits</string>
-    <string name="metrics_input_tokens">Input tokens</string>
-    <string name="metrics_output_tokens">Output tokens</string>
-    <string name="usage_cached">Cache hits</string>
-    <string name="metrics_no_usage">No usage reported</string>
-    <string name="metrics_all_calls">All logical model calls</string>
-    <string name="metrics_all_http_calls">All HTTP requests</string>
+    <string name="metrics_first_feedback_at">phản hồi đầu tiên %1$s</string>
+    <string name="metrics_retry_wait">Trong đó là thời gian chờ thử lại</string>
+    <string name="metrics_input_tokens">Token đầu vào</string>
+    <string name="metrics_output_tokens">Token đầu ra</string>
+    <string name="usage_cached">Lượt dùng bộ nhớ đệm</string>
+    <string name="metrics_no_usage">Không có báo cáo mức sử dụng</string>
+    <string name="metrics_all_calls">Tất cả lời gọi mô hình logic</string>
+    <string name="metrics_all_http_calls">Tất cả yêu cầu HTTP</string>
     <plurals name="metrics_all_calls_value">
-        <item quantity="one">%1$d (incl. side calls and retries)</item>
-        <item quantity="other">%1$d (incl. side calls and retries)</item>
+        <item quantity="one">%1$d (bao gồm lời gọi phụ và thử lại)</item>
+        <item quantity="other">%1$d (bao gồm lời gọi phụ và thử lại)</item>
     </plurals>
-    <string name="metrics_steps">Steps</string>
-    <string name="metrics_observe_act">Reads / actions</string>
+    <string name="metrics_steps">Các bước</string>
+    <string name="metrics_observe_act">Lượt đọc / thao tác</string>
     <string name="metrics_observe_act_value">%1$d / %2$d</string>
-    <string name="metrics_counted">Counted</string>
+    <string name="metrics_counted">Đã tính</string>
     <plurals name="metrics_n_runs">
-        <item quantity="one">%1$d run</item>
-        <item quantity="other">%1$d runs</item>
+        <item quantity="one">%1$d lượt chạy</item>
+        <item quantity="other">%1$d lượt chạy</item>
     </plurals>
-    <string name="metrics_success_rate">Success rate</string>
+    <string name="metrics_success_rate">Tỷ lệ thành công</string>
     <string name="metrics_success_value">%1$s (%2$d/%3$d)</string>
-    <string name="metrics_median_time">Median time</string>
-    <string name="metrics_median_feedback">Median first feedback</string>
-    <string name="metrics_avg_round_trips">Avg. model round trips</string>
+    <string name="metrics_median_time">Thời gian trung vị</string>
+    <string name="metrics_median_feedback">Thời gian phản hồi đầu tiên trung vị</string>
+    <string name="metrics_avg_round_trips">Trung bình lượt trao đổi mô hình</string>
     <string name="metrics_avg_round_trips_value">%1$s</string>
-    <string name="metrics_avg_tokens">Avg. tokens</string>
+    <string name="metrics_avg_tokens">Token trung bình</string>
     <plurals name="metrics_copied">
-        <item quantity="one">Copied the summary of %1$d run</item>
-        <item quantity="other">Copied the summaries of %1$d runs</item>
+        <item quantity="one">Đã sao chép tóm tắt %1$d lượt chạy</item>
+        <item quantity="other">Đã sao chép tóm tắt %1$d lượt chạy</item>
     </plurals>
-    <string name="metrics_export_failed">Couldn’t export; the data may be too large. Try a smaller range.</string>
-    <string name="metrics_where_time">See where the time went</string>
-    <string name="metrics_overview">Overview</string>
-    <string name="metrics_time_split">Where the time went</string>
-    <string name="metrics_export">Export</string>
+    <string name="metrics_export_failed">Không thể xuất; dữ liệu có thể quá lớn. Hãy thử phạm vi nhỏ hơn.</string>
+    <string name="metrics_where_time">Xem thời gian được dùng vào đâu</string>
+    <string name="metrics_overview">Tổng quan</string>
+    <string name="metrics_time_split">Phân bổ thời gian</string>
+    <string name="metrics_export">Xuất</string>
     <plurals name="metrics_summary_of">
-        <item quantity="one">Summary of these %1$d run</item>
-        <item quantity="other">Summary of these %1$d runs</item>
+        <item quantity="one">Tóm tắt %1$d lượt chạy này</item>
+        <item quantity="other">Tóm tắt %1$d lượt chạy này</item>
     </plurals>
-    <string name="metrics_summary_sub">One entry per run, for your own analysis</string>
+    <string name="metrics_summary_sub">Mỗi lượt chạy một mục, phục vụ phân tích của bạn</string>
     <plurals name="chat_steps_n">
-        <item quantity="one">%1$d step</item>
-        <item quantity="other">%1$d steps</item>
+        <item quantity="one">%1$d bước</item>
+        <item quantity="other">%1$d bước</item>
     </plurals>
 </resources>
