@@ -1,7 +1,7 @@
 name: Mika test APK
 on:
   push:
-    branches: [feature/ai-call-summary]
+    branches: [main, feature/ai-call-summary]
   workflow_dispatch:
 
 permissions:
