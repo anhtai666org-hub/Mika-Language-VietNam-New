@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/media/logo.png" alt="Mika" width="88" />
+<img src="app/src/main/res/drawable-nodpi/mika_launcher_art.png" alt="Mika" width="88" />
 
 # Mika
 
