@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="confirm_note">Anything that spends money needs your OK every time.</string>
-    <string name="confirm_pay">Pay</string>
-    <string name="confirm_delete">Delete</string>
-    <string name="confirm_order">Place order</string>
-    <string name="confirm_submit">Submit</string>
-    <string name="confirm_other">Other action</string>
-    <string name="confirm_root">Root command</string>
-    <string name="confirm_root_where">the whole phone (root)</string>
-    <string name="confirm_title">Needs your OK: %1$s</string>
-    <string name="confirm_in_app">In %1$s</string>
-    <string name="confirm_target">To: %1$s</string>
-    <string name="confirm_content">Content: %1$s</string>
+    <string name="confirm_note">Mọi thao tác tiêu tiền đều cần bạn xác nhận mỗi lần.</string>
+    <string name="confirm_pay">Thanh toán</string>
+    <string name="confirm_delete">Xóa</string>
+    <string name="confirm_order">Đặt hàng</string>
+    <string name="confirm_submit">Gửi</string>
+    <string name="confirm_other">Hành động khác</string>
+    <string name="confirm_root">Lệnh root</string>
+    <string name="confirm_root_where">toàn bộ điện thoại (root)</string>
+    <string name="confirm_title">Cần bạn xác nhận: %1$s</string>
+    <string name="confirm_in_app">Trong %1$s</string>
+    <string name="confirm_target">Đến: %1$s</string>
+    <string name="confirm_content">Nội dung: %1$s</string>
 </resources>
