@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="calls_draft_title">WeChat follow-up draft</string>
-    <string name="calls_draft_edit">Edit</string>
-    <string name="calls_draft_copy">Copy</string>
-    <string name="calls_draft_copied">Copied</string>
-    <string name="calls_draft_saved">Draft saved</string>
-    <string name="calls_draft_save_failed">Could not save the draft. Please try again.</string>
+    <string name="calls_draft_title">Bản nháp tin nhắn tiếp theo trên WeChat</string>
+    <string name="calls_draft_edit">Chỉnh sửa</string>
+    <string name="calls_draft_copy">Sao chép</string>
+    <string name="calls_draft_copied">Đã sao chép</string>
+    <string name="calls_draft_saved">Đã lưu bản nháp</string>
+    <string name="calls_draft_save_failed">Không thể lưu bản nháp. Vui lòng thử lại.</string>
 </resources>
