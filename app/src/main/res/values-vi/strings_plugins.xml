@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="plugins_title">Plugins</string>
-    <string name="plugins_install">Install plugin</string>
-    <string name="plugins_installing">Installing…</string>
-    <string name="plugins_empty">No plugins yet</string>
-    <string name="plugins_empty_sub">Install a plugin zip to add skills Mika can read. A plugin cannot change app settings or read your other data.</string>
-    <string name="plugins_enabled">Enabled</string>
-    <string name="plugins_disabled">Disabled</string>
-    <string name="plugins_skills">Skills</string>
-    <string name="plugins_no_skills">No skills</string>
-    <string name="plugins_permissions">Permissions</string>
-    <string name="plugins_none">None</string>
-    <string name="plugins_version">Version %1$s</string>
-    <string name="plugins_uninstall">Uninstall</string>
-    <string name="plugins_uninstall_body">Remove this plugin and its skills? Conversations and memories are not affected.</string>
-    <string name="plugins_install_failed">Installation failed: %1$s</string>
-    <string name="plugins_unsupported_in_version">This version only supports plugins that contain skills.</string>
-    <string name="plugins_error_too_new">This plugin needs a newer version of Mika.</string>
-    <string name="plugins_error_unsafe">The package contains an unsafe path and was rejected.</string>
-    <string name="plugins_error_too_large">The package is too large.</string>
-    <string name="plugins_error_missing_manifest">The package has no manifest.json at its root.</string>
-    <string name="plugins_error_invalid">The package is not a valid plugin.</string>
+    <string name="plugins_title">Plugin</string>
+    <string name="plugins_install">Cài plugin</string>
+    <string name="plugins_installing">Đang cài…</string>
+    <string name="plugins_empty">Chưa có plugin</string>
+    <string name="plugins_empty_sub">Cài tệp zip plugin để thêm kỹ năng Mika có thể đọc. Plugin không thể đổi cài đặt ứng dụng hoặc đọc dữ liệu khác của bạn.</string>
+    <string name="plugins_enabled">Đã bật</string>
+    <string name="plugins_disabled">Đã tắt</string>
+    <string name="plugins_skills">Kỹ năng</string>
+    <string name="plugins_no_skills">Không có kỹ năng</string>
+    <string name="plugins_permissions">Quyền</string>
+    <string name="plugins_none">Không</string>
+    <string name="plugins_version">Phiên bản %1$s</string>
+    <string name="plugins_uninstall">Gỡ cài đặt</string>
+    <string name="plugins_uninstall_body">Gỡ plugin này và các kỹ năng của nó? Cuộc trò chuyện và bộ nhớ không bị ảnh hưởng.</string>
+    <string name="plugins_install_failed">Cài đặt thất bại: %1$s</string>
+    <string name="plugins_unsupported_in_version">Phiên bản này chỉ hỗ trợ plugin chứa kỹ năng.</string>
+    <string name="plugins_error_too_new">Plugin này cần phiên bản Mika mới hơn.</string>
+    <string name="plugins_error_unsafe">Gói chứa đường dẫn không an toàn nên bị từ chối.</string>
+    <string name="plugins_error_too_large">Gói quá lớn.</string>
+    <string name="plugins_error_missing_manifest">Gói không có manifest.json ở thư mục gốc.</string>
+    <string name="plugins_error_invalid">Gói không phải plugin hợp lệ</string>
     <plurals name="plugins_skill_count">
-        <item quantity="one">%1$d skill</item>
-        <item quantity="other">%1$d skills</item>
+        <item quantity="one">%1$d kỹ năng</item>
+        <item quantity="other">%1$d kỹ năng</item>
     </plurals>
     <plurals name="plugins_count">
         <item quantity="one">%1$d plugin</item>
-        <item quantity="other">%1$d plugins</item>
+        <item quantity="other">%1$d plugin</item>
     </plurals>
 </resources>
