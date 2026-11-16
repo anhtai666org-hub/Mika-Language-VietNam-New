@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="selfcheck_title">Compatibility self-check</string>
-    <string name="selfcheck_row_sub">See what works on this phone and report it</string>
-    <string name="selfcheck_intro">Takes about 1 minute. It doesn’t touch your other apps, doesn’t change settings and doesn’t use the network. Please stay on this page while it runs.</string>
-    <string name="selfcheck_start">Start</string>
-    <string name="selfcheck_again">Run again</string>
-    <string name="selfcheck_cancel">Cancel</string>
-    <string name="selfcheck_task_running">A task is running. Start the self-check after it finishes.</string>
-    <string name="selfcheck_checks">Checks</string>
-    <string name="selfcheck_report">Report</string>
-    <string name="selfcheck_copy">Copy report</string>
-    <string name="selfcheck_github">Report on GitHub</string>
-    <string name="selfcheck_copied">Report copied</string>
+    <string name="selfcheck_title">Tự kiểm tra tương thích</string>
+    <string name="selfcheck_row_sub">Kiểm tra tính năng hoạt động trên điện thoại và báo cáo</string>
+    <string name="selfcheck_intro">Mất khoảng 1 phút. Không tác động ứng dụng khác, không đổi cài đặt và không dùng mạng. Vui lòng ở trang này khi chạy.</string>
+    <string name="selfcheck_start">Bắt đầu</string>
+    <string name="selfcheck_again">Chạy lại</string>
+    <string name="selfcheck_cancel">Hủy</string>
+    <string name="selfcheck_task_running">Một tác vụ đang chạy. Hãy tự kiểm tra sau khi tác vụ hoàn tất.</string>
+    <string name="selfcheck_checks">Kiểm tra</string>
+    <string name="selfcheck_report">Báo cáo</string>
+    <string name="selfcheck_copy">Sao chép báo cáo</string>
+    <string name="selfcheck_github">Báo cáo trên GitHub</string>
+    <string name="selfcheck_copied">Đã sao chép báo cáo</string>
     <string name="selfcheck_github_copied">Report copied. Paste it into “Self-check report” on the page that opens.</string>
     <string name="selfcheck_report_note">The report only has the phone model, system version and the result of each check, with no accounts, app lists or your content. You can read it before posting.</string>
 
-    <string name="selfcheck_check_device">Device</string>
-    <string name="selfcheck_check_permissions">Permissions</string>
-    <string name="selfcheck_check_helper">Built-in helper</string>
-    <string name="selfcheck_check_display">Virtual display</string>
-    <string name="selfcheck_check_launch">Opening apps</string>
-    <string name="selfcheck_check_reading">Reading the screen</string>
-    <string name="selfcheck_check_actions">Taps and typing</string>
-    <string name="selfcheck_check_alive">Keeps running</string>
-    <string name="selfcheck_check_main">Your screen undisturbed</string>
-    <string name="selfcheck_check_browser">Built-in browser</string>
-    <string name="selfcheck_check_sandbox">Sandbox</string>
-    <string name="selfcheck_check_copies">App copies</string>
+    <string name="selfcheck_check_device">Thiết bị</string>
+    <string name="selfcheck_check_permissions">Quyền</string>
+    <string name="selfcheck_check_helper">Trình trợ giúp tích hợp</string>
+    <string name="selfcheck_check_display">Màn hình ảo</string>
+    <string name="selfcheck_check_launch">Mở ứng dụng</string>
+    <string name="selfcheck_check_reading">Đọc màn hình</string>
+    <string name="selfcheck_check_actions">Chạm và nhập</string>
+    <string name="selfcheck_check_alive">Duy trì hoạt động</string>
+    <string name="selfcheck_check_main">Màn hình của bạn không bị ảnh hưởng</string>
+    <string name="selfcheck_check_browser">Trình duyệt tích hợp</string>
+    <string name="selfcheck_check_sandbox">Môi trường sandbox</string>
+    <string name="selfcheck_check_copies">Bản sao ứng dụng</string>
 
-    <string name="selfcheck_status_pending">Waiting</string>
-    <string name="selfcheck_status_running">Checking</string>
-    <string name="selfcheck_status_pass">Pass</string>
-    <string name="selfcheck_status_partial">Partial</string>
-    <string name="selfcheck_status_fail">Failed</string>
-    <string name="selfcheck_status_skipped">Skipped</string>
+    <string name="selfcheck_status_pending">Đang chờ</string>
+    <string name="selfcheck_status_running">Đang kiểm tra</string>
+    <string name="selfcheck_status_pass">Đạt</string>
+    <string name="selfcheck_status_partial">Một phần</string>
+    <string name="selfcheck_status_fail">Thất bại</string>
+    <string name="selfcheck_status_skipped">Đã bỏ qua</string>
 
-    <string name="selfcheck_line_pending">Not started yet</string>
-    <string name="selfcheck_line_running">Checking…</string>
-    <string name="selfcheck_line_pass">Works</string>
+    <string name="selfcheck_line_pending">Chưa bắt đầu</string>
+    <string name="selfcheck_line_running">Đang kiểm tra…</string>
+    <string name="selfcheck_line_pass">Hoạt động</string>
     <string name="selfcheck_line_needs">Skipped: “%1$s” has to pass first</string>
     <string name="selfcheck_line_other">Didn’t pass. See the report for details.</string>
 
@@ -67,13 +67,13 @@
     <string name="selfcheck_advice_timeout">This check took too long. Run it again; if it keeps timing out, please report it.</string>
     <string name="selfcheck_advice_error">This check ran into an error. Please report it.</string>
     <string name="selfcheck_advice_out_of_time">The self-check ran out of time before this check.</string>
-    <string name="selfcheck_advice_cancelled">Cancelled.</string>
+    <string name="selfcheck_advice_cancelled">Đã hủy.</string>
 
-    <string name="selfcheck_target_title">Mika self-check page</string>
+    <string name="selfcheck_target_title">Trang tự kiểm tra Mika</string>
     <string name="selfcheck_target_note">This is Mika’s own test page. The compatibility self-check taps and types here; it doesn’t touch your other apps.</string>
     <string name="selfcheck_target_taps">Taps: %1$d</string>
-    <string name="selfcheck_target_button">Tap me</string>
-    <string name="selfcheck_target_input">Type here</string>
+    <string name="selfcheck_target_button">Chạm tôi</string>
+    <string name="selfcheck_target_input">Nhập tại đây</string>
     <string name="selfcheck_target_tick">Tick %1$d</string>
     <string name="selfcheck_target_row">Row %1$d</string>
 </resources>
